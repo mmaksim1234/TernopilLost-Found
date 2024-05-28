@@ -1,0 +1,32 @@
+﻿@model IEnumerable<server2MVC.Models.Advertismnet>
+
+@{
+    ViewData["Title"] = "Admin";
+}
+
+<h1>ADMIN PANEL</h1>
+
+
+
+<div class="announcementWrapper">
+@foreach (var item in Model)
+{
+    <div class="announcement">
+        <div class="announcementImg">
+                    <img src="@Url.Content(item.ImagePath)" alt="foto" />
+                </div>
+                <div class="announcementText">
+                    <div class="title"><h3>@item.Title</h3></div>
+                    <div class="text">
+                        <p>@item.Description</p>
+                        <p>Активна:@item.isActive</p>
+                    </div>
+                    <div class="phone"><p>+38090946537</p></div>
+                    <div class="configuration">
+                        <a asp-controller="Advertismnets" asp-action="Edit" asp-route-id="@item.ID">Редагувати</a>
+                        <a asp-controller="Advertismnets" asp-action="Details" asp-route-id="@item.ID">Деталі</a>
+                        <a asp-controller="Advertismnets" asp-action="Delete" asp-route-id="@item.ID">Видалити</a>
+                    </div>
+                </div>
+            </div>
+            }</div>

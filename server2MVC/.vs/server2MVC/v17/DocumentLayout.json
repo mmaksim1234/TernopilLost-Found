@@ -1,0 +1,569 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\project\\server2MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\models\\categoryclassifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\models\\categoryclassifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/server2MVCContext_649c4a23_44e3_420c_baec_f212d19f3cec/True/SqlTable/dbo.Advertismnet.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\views\\users\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\views\\users\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\views\\advertismnets\\advertiements.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\views\\advertismnets\\advertiements.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\views\\advertismnets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\views\\advertismnets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\views\\advertismnets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\views\\advertismnets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\controllers\\advertismnetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\controllers\\advertismnetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\models\\userdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\models\\userdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/server2MVCContext_649c4a23_44e3_420c_baec_f212d19f3cec/True/SqlTable/dbo.User.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\models\\advertismnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\models\\advertismnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\views\\advertismnets\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\views\\advertismnets\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\migrations\\20240520184406_cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\migrations\\20240520184406_cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\server2mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\server2mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\data\\server2mvccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\data\\server2mvccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\makss\\AppData\\Local\\Temp\\Rar$DIa23516.15440\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\migrations\\20240508154633_advertisment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\migrations\\20240508154633_advertisment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\migrations\\20240508151618_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\migrations\\20240508151618_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\migrations\\20240509155936_deletefromclassadver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\migrations\\20240509155936_deletefromclassadver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\migrations\\20240509153929_deleteuseriditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\migrations\\20240509153929_deleteuseriditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\migrations\\20240509153352_photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\migrations\\20240509153352_photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|d:\\project\\server2mvc\\server2mvc\\migrations\\20240509071028_itemsid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B76ADD-9C70-4AC5-A31E-5AAD4A0871CB}|server2MVC\\server2MVC.csproj|solutionrelative:server2mvc\\migrations\\20240509071028_itemsid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "server2MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "server2MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAABIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T13:23:48.666Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Views\\Advertismnets\\Index.cshtml",
+              "RelativeDocumentMoniker": "server2MVC\\Views\\Advertismnets\\Index.cshtml",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Views\\Advertismnets\\Index.cshtml",
+              "RelativeToolTip": "server2MVC\\Views\\Advertismnets\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T20:48:11.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashBoard.cshtml",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Views\\Users\\DashBoard.cshtml",
+              "RelativeDocumentMoniker": "server2MVC\\Views\\Users\\DashBoard.cshtml",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Views\\Users\\DashBoard.cshtml",
+              "RelativeToolTip": "server2MVC\\Views\\Users\\DashBoard.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T18:35:28.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "server2MVC\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "server2MVC\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T17:20:09.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.Advertismnet [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/server2MVCContext_649c4a23_44e3_420c_baec_f212d19f3cec/True/SqlTable/dbo.Advertismnet.sql",
+              "ToolTip": "dbo.Advertismnet [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-26T20:55:13.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryClassifier.cs",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Models\\CategoryClassifier.cs",
+              "RelativeDocumentMoniker": "server2MVC\\Models\\CategoryClassifier.cs",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Models\\CategoryClassifier.cs",
+              "RelativeToolTip": "server2MVC\\Models\\CategoryClassifier.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAswDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T18:34:38.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Views\\Advertismnets\\Create.cshtml",
+              "RelativeDocumentMoniker": "server2MVC\\Views\\Advertismnets\\Create.cshtml",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Views\\Advertismnets\\Create.cshtml",
+              "RelativeToolTip": "server2MVC\\Views\\Advertismnets\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T19:14:09.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "server2MVC\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "server2MVC\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAIwFQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-12T20:57:45.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Advertiements.cshtml",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Views\\Advertismnets\\Advertiements.cshtml",
+              "RelativeDocumentMoniker": "server2MVC\\Views\\Advertismnets\\Advertiements.cshtml",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Views\\Advertismnets\\Advertiements.cshtml",
+              "RelativeToolTip": "server2MVC\\Views\\Advertismnets\\Advertiements.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T20:32:36.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "server2MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "server2MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:28:53.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdvertismnetsController.cs",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Controllers\\AdvertismnetsController.cs",
+              "RelativeDocumentMoniker": "server2MVC\\Controllers\\AdvertismnetsController.cs",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Controllers\\AdvertismnetsController.cs",
+              "RelativeToolTip": "server2MVC\\Controllers\\AdvertismnetsController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwB4AAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T20:58:59.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Program.cs",
+              "RelativeDocumentMoniker": "server2MVC\\Program.cs",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Program.cs",
+              "RelativeToolTip": "server2MVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:29:11.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserDashBoardViewModel.cs",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Models\\UserDashBoardViewModel.cs",
+              "RelativeDocumentMoniker": "server2MVC\\Models\\UserDashBoardViewModel.cs",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Models\\UserDashBoardViewModel.cs",
+              "RelativeToolTip": "server2MVC\\Models\\UserDashBoardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T17:15:12.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Models\\User.cs",
+              "RelativeDocumentMoniker": "server2MVC\\Models\\User.cs",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Models\\User.cs",
+              "RelativeToolTip": "server2MVC\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T07:12:12.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "dbo.User [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/server2MVCContext_649c4a23_44e3_420c_baec_f212d19f3cec/True/SqlTable/dbo.User.sql",
+              "ToolTip": "dbo.User [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-13T07:11:40.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Advertismnet.cs",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Models\\Advertismnet.cs",
+              "RelativeDocumentMoniker": "server2MVC\\Models\\Advertismnet.cs",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Models\\Advertismnet.cs",
+              "RelativeToolTip": "server2MVC\\Models\\Advertismnet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T19:24:47.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "server2MVC\\Views\\Users\\Create.cshtml",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "server2MVC\\Views\\Users\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T21:37:46.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "server2MVC\\Views\\Users\\Delete.cshtml",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Views\\Users\\Delete.cshtml",
+              "RelativeToolTip": "server2MVC\\Views\\Users\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T21:48:09.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "server2MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "server2MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T17:30:23.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Views\\Advertismnets\\Edit.cshtml",
+              "RelativeDocumentMoniker": "server2MVC\\Views\\Advertismnets\\Edit.cshtml",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Views\\Advertismnets\\Edit.cshtml",
+              "RelativeToolTip": "server2MVC\\Views\\Advertismnets\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T10:37:27.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240520184406_cat.cs",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Migrations\\20240520184406_cat.cs",
+              "RelativeDocumentMoniker": "server2MVC\\Migrations\\20240520184406_cat.cs",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Migrations\\20240520184406_cat.cs",
+              "RelativeToolTip": "server2MVC\\Migrations\\20240520184406_cat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T18:44:06.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "server2MVC\\Models\\Login.cs",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Models\\Login.cs",
+              "RelativeToolTip": "server2MVC\\Models\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:40:18.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "server2MVC.csproj",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\server2MVC.csproj",
+              "RelativeDocumentMoniker": "server2MVC\\server2MVC.csproj",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\server2MVC.csproj",
+              "RelativeToolTip": "server2MVC\\server2MVC.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-14T12:03:27.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Views\\Users\\Login.cshtml",
+              "RelativeDocumentMoniker": "server2MVC\\Views\\Users\\Login.cshtml",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Views\\Users\\Login.cshtml",
+              "RelativeToolTip": "server2MVC\\Views\\Users\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T21:48:25.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "server2MVC\\Views\\Users\\Details.cshtml",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "server2MVC\\Views\\Users\\Details.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T21:48:10.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "server2MVCContext.cs",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Data\\server2MVCContext.cs",
+              "RelativeDocumentMoniker": "server2MVC\\Data\\server2MVCContext.cs",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Data\\server2MVCContext.cs",
+              "RelativeToolTip": "server2MVC\\Data\\server2MVCContext.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T07:05:58.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20240509155936_deletefromclassadver.cs",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Migrations\\20240509155936_deletefromclassadver.cs",
+              "RelativeDocumentMoniker": "server2MVC\\Migrations\\20240509155936_deletefromclassadver.cs",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Migrations\\20240509155936_deletefromclassadver.cs",
+              "RelativeToolTip": "server2MVC\\Migrations\\20240509155936_deletefromclassadver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:56:54.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20240509153929_DeleteuserIDItem.cs",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Migrations\\20240509153929_DeleteuserIDItem.cs",
+              "RelativeDocumentMoniker": "server2MVC\\Migrations\\20240509153929_DeleteuserIDItem.cs",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Migrations\\20240509153929_DeleteuserIDItem.cs",
+              "RelativeToolTip": "server2MVC\\Migrations\\20240509153929_DeleteuserIDItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:56:54.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20240509153352_Photo.cs",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Migrations\\20240509153352_Photo.cs",
+              "RelativeDocumentMoniker": "server2MVC\\Migrations\\20240509153352_Photo.cs",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Migrations\\20240509153352_Photo.cs",
+              "RelativeToolTip": "server2MVC\\Migrations\\20240509153352_Photo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:56:54.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20240509071028_ItemsId.cs",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Migrations\\20240509071028_ItemsId.cs",
+              "RelativeDocumentMoniker": "server2MVC\\Migrations\\20240509071028_ItemsId.cs",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Migrations\\20240509071028_ItemsId.cs",
+              "RelativeToolTip": "server2MVC\\Migrations\\20240509071028_ItemsId.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:56:55.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\makss\\AppData\\Local\\Temp\\Rar$DIa23516.15440\\Login.cshtml",
+              "ToolTip": "C:\\Users\\makss\\AppData\\Local\\Temp\\Rar$DIa23516.15440\\Login.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T17:29:05.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20240508154633_Advertisment.cs",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Migrations\\20240508154633_Advertisment.cs",
+              "RelativeDocumentMoniker": "server2MVC\\Migrations\\20240508154633_Advertisment.cs",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Migrations\\20240508154633_Advertisment.cs",
+              "RelativeToolTip": "server2MVC\\Migrations\\20240508154633_Advertisment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T16:26:52.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20240508151618_Initial.cs",
+              "DocumentMoniker": "D:\\project\\server2MVC\\server2MVC\\Migrations\\20240508151618_Initial.cs",
+              "RelativeDocumentMoniker": "server2MVC\\Migrations\\20240508151618_Initial.cs",
+              "ToolTip": "D:\\project\\server2MVC\\server2MVC\\Migrations\\20240508151618_Initial.cs",
+              "RelativeToolTip": "server2MVC\\Migrations\\20240508151618_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T16:26:52.211Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

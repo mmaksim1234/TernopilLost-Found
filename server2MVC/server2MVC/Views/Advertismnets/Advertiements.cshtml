@@ -1,0 +1,137 @@
+﻿@model IEnumerable<server2MVC.Models.Advertismnet>
+
+@{
+    ViewData["Title"] = "Advertiements";
+    var categories = ViewBag.Categories as List<string>;
+    string currentCategory = ViewBag.CurrentCategory as string;
+
+    string GenerateCategoryOptions(List<string> categories, string currentCategory)
+    {
+        var options = new System.Text.StringBuilder();
+        options.Append("<option value=\"\">Усі категорії</option>");
+        foreach (var category in categories)
+        {
+            var selected = category == currentCategory ? "selected" : "";
+            options.Append($"<option value=\"{category}\" {selected}>{category}</option>");
+        }
+        return options.ToString();
+    }
+
+    var categoryOptions = GenerateCategoryOptions(categories, currentCategory);
+}
+
+<div class="header">
+    <div class="headerWrapper">
+        <div class="headerLogo">
+           <a asp-controller="Home" asp-action="Index"> <img src="/Image/logo.svg" alt="logo" /></a>
+            <p>Ternopil Lost&found</p>
+        </div>
+        <div class="registrBtn">
+            <a asp-controller="Advertismnets" asp-action="Create"> <button class="addOgl">Додати оголошення</button></a>
+            <div style='display:flex'>
+                @{
+                    bool isLoggedIn = ViewBag.IsLoggedIn ?? false;
+                    if (!isLoggedIn)
+                    {
+                        <a asp-controller="Users" asp-action="Login"><button class="signIn">Вхід</button></a>
+                        <a asp-controller="Users" asp-action="Create"><button class="SignUp">Реєстрація аккаунту</button></a>
+
+                    }
+                    if (isLoggedIn)
+                    {
+                        <div class="popupConteiner">
+                            <img src="/Image/user-icon.svg">
+                            <div class="popup">
+
+                                <a asp-controller="Users" asp-action="DashBoard">Особистий кабінет</a>
+                                <a asp-controller="Users" asp-action="Logout">Вихід</a>
+
+                            </div>
+                        </div>
+
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="FullAnnouncementWrapper" style="margin-top:5%">
+    <h1>Оголошення</h1>
+    <div class="filter" >
+    <form method="get" asp-controller="Advertismnets" asp-action="Advertiements">
+        <select name="category" onchange="this.form.submit()">
+            @Html.Raw(categoryOptions)
+        </select>
+    </form>
+</div>
+    <div class="announcementWrapper">
+        @foreach (var item in Model)
+        {
+            <div class="announcement">
+                <div class="category-label category-@(item.category.ToLower())">
+                    @item.category
+                </div>
+                <div class="announcementImg">
+                    <img src="@Url.Content(item.ImagePath)" alt="foto" />
+                </div>
+                <div class="announcementText">
+                    <div class="title"><h3>@Html.DisplayFor(modelItem => item.Title)</h3></div>
+                    <div class="text">
+                        <p>@Html.DisplayFor(modelItem => item.Description)</p>
+                    </div>
+                    <div class="phone"><p>@Html.DisplayFor(modelItem => item.phoneNum)</p></div>
+                    <button class="details-button">Details</button>
+                </div>
+            </div>
+        }
+        <div id="announcementModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-body">
+                    <div class="modal-image"><img src="" alt="foto"></div>
+                    <div class="modal-info">
+
+                        <div class="modal-title"><h3></h3></div>
+
+                        <div class="modal-category"><span>Категорія:</span> <p></p></div>
+
+                        <div class="modal-description"> <span>Опис:</span> <p></p></div>
+
+
+                        <div class="modal-phone"><span>Номер телофону:</span> <p></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <a style=" margin-top:20px" asp-controller="Home" asp-action="index"><button class="addOgl">На головну</button></a>
+    </div>
+
+</div>
+
+<div class="FooterWrapper">
+    <div class="imgContainer">
+        <img src="/Image/light_logo.svg" alt="logo" />
+    </div>
+    <div class="AboutUs">
+        <h2>Ternopil lost&found</h2>
+        <p>Про нас</p>
+        <p>Політика конфіденційності</p>
+    </div>
+    <div class="Contacts">
+        <div class="ContactsText"><p>Наші контакти</p></div>
+        <div class="phone">
+            <p>Телефон</p>
+            <p>+380975461223</p>
+        </div>
+        <hr />
+        <div class="email">
+            <p>Пошта</p>
+            <p>ternopilLostFound@gmail.com</p>
+        </div>
+        <hr />
+    </div>
+</div>

@@ -1,0 +1,169 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\server2MVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\server2MVC.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\4fccb0d494c74125e8850521a226cdc2240550857.jpg",
+      "PackagePath": "staticwebassets\\Image\\4fccb0d494c74125e8850521a226cdc2240550857.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\4fccb0d494c74125e8850521a226cdc2241047196.jpg",
+      "PackagePath": "staticwebassets\\Image\\4fccb0d494c74125e8850521a226cdc2241047196.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\4fccb0d494c74125e8850521a226cdc2242058892.jpg",
+      "PackagePath": "staticwebassets\\Image\\4fccb0d494c74125e8850521a226cdc2242058892.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\4fccb0d494c74125e8850521a226cdc2242404839.jpg",
+      "PackagePath": "staticwebassets\\Image\\4fccb0d494c74125e8850521a226cdc2242404839.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\4fccb0d494c74125e8850521a226cdc2242656236.jpg",
+      "PackagePath": "staticwebassets\\Image\\4fccb0d494c74125e8850521a226cdc2242656236.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\4fccb0d494c74125e8850521a226cdc2243450669.jpg",
+      "PackagePath": "staticwebassets\\Image\\4fccb0d494c74125e8850521a226cdc2243450669.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\4fccb0d494c74125e8850521a226cdc2243949623.jpg",
+      "PackagePath": "staticwebassets\\Image\\4fccb0d494c74125e8850521a226cdc2243949623.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\4fccb0d494c74125e8850521a226cdc2244607289.jpg",
+      "PackagePath": "staticwebassets\\Image\\4fccb0d494c74125e8850521a226cdc2244607289.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\4fccb0d494c74125e8850521a226cdc2244941888.jpg",
+      "PackagePath": "staticwebassets\\Image\\4fccb0d494c74125e8850521a226cdc2244941888.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\4fccb0d494c74125e8850521a226cdc2245612475.jpg",
+      "PackagePath": "staticwebassets\\Image\\4fccb0d494c74125e8850521a226cdc2245612475.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\Jeka240809007.png",
+      "PackagePath": "staticwebassets\\Image\\Jeka240809007.png"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\Jeka241236881.png",
+      "PackagePath": "staticwebassets\\Image\\Jeka241236881.png"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\Jeka243412178.png",
+      "PackagePath": "staticwebassets\\Image\\Jeka243412178.png"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\best-laptops240041932.jpg",
+      "PackagePath": "staticwebassets\\Image\\best-laptops240041932.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\best-laptops243033105.jpg",
+      "PackagePath": "staticwebassets\\Image\\best-laptops243033105.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\best-laptops243236435.jpg",
+      "PackagePath": "staticwebassets\\Image\\best-laptops243236435.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\best-laptops244211723.jpg",
+      "PackagePath": "staticwebassets\\Image\\best-laptops244211723.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\best-laptops245653766.jpg",
+      "PackagePath": "staticwebassets\\Image\\best-laptops245653766.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\footer243328837.jpg",
+      "PackagePath": "staticwebassets\\Image\\footer243328837.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\footer243938199.jpg",
+      "PackagePath": "staticwebassets\\Image\\footer243938199.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\footer244203087.jpg",
+      "PackagePath": "staticwebassets\\Image\\footer244203087.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\footer245145538.jpg",
+      "PackagePath": "staticwebassets\\Image\\footer245145538.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\footer245657751.jpg",
+      "PackagePath": "staticwebassets\\Image\\footer245657751.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\jeka1242937322.png",
+      "PackagePath": "staticwebassets\\Image\\jeka1242937322.png"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\jeka1244109831.png",
+      "PackagePath": "staticwebassets\\Image\\jeka1244109831.png"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\light_logo.svg",
+      "PackagePath": "staticwebassets\\Image\\light_logo.svg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\logo-removebg-preview241320874.png",
+      "PackagePath": "staticwebassets\\Image\\logo-removebg-preview241320874.png"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\logo.svg",
+      "PackagePath": "staticwebassets\\Image\\logo.svg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\photo_2023-03-16_14-24-57240832395.jpg",
+      "PackagePath": "staticwebassets\\Image\\photo_2023-03-16_14-24-57240832395.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\photo_2023-03-16_14-24-57241650893.jpg",
+      "PackagePath": "staticwebassets\\Image\\photo_2023-03-16_14-24-57241650893.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\photo_2023-03-16_14-24-57245901127.jpg",
+      "PackagePath": "staticwebassets\\Image\\photo_2023-03-16_14-24-57245901127.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\user-icon.svg",
+      "PackagePath": "staticwebassets\\Image\\user-icon.svg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\Image\\завантаження245406991.jpg",
+      "PackagePath": "staticwebassets\\Image\\завантаження245406991.jpg"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\project\\server2MVC\\server2MVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.server2MVC.props",
+      "PackagePath": "build\\server2MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.server2MVC.props",
+      "PackagePath": "buildMultiTargeting\\server2MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.server2MVC.props",
+      "PackagePath": "buildTransitive\\server2MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.server2MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

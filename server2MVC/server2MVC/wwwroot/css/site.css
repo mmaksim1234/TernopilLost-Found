@@ -1,0 +1,871 @@
+/* full setings*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+button, a {
+    cursor: pointer;
+    text-decoration:none;
+}
+input {
+    padding-left: 10px;
+}
+
+/* header style*/
+.header {
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    background: linear-gradient(to left,#fff,#c9dbff);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5% 0 5%;
+    align-items: center;
+ }
+
+.headerLogo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    width: 400px;
+
+}
+
+    .headerLogo p {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+.registrBtn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+
+}
+/* випрадаюче в≥кно*/
+.registrBtn img {
+    border: 4px solid #4886D9;
+    border-radius:50%;
+}
+.popupConteiner {
+    position: relative;
+    display: inline-block;
+}
+.popup {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    visibility: hidden;
+    width: 200px;
+    background-color: #c9dbff;
+    border:1px solid #4886D9;
+    border-radius:30px;
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: -80px;
+    transition: visibility 0.3s ease;
+    
+}
+
+    .popup a {
+        justify-content:center;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        background: #5288F2;
+        border-radius: 30px;
+        margin: 5px 0;
+        width: 80%;
+        height: 35px;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        font-weight:500;
+    }
+        .popup a:hover {
+            background: #fff;
+            color: #5288F2;
+            border: 1px solid #5288F2;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+    .close:hover,
+    .close:focus,  {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        
+    }
+
+.registrBtn img:hover + .popup {
+    visibility: visible;
+}
+.popupConteiner:hover .popup,
+.popup:hover {
+    visibility: visible;
+}
+/* зак≥нченн€ випадаючого в≥кна*/
+.addOgl, .signIn {
+    background-color: #4886D9;
+    border: none;
+    border-radius: 30px;
+}
+
+.addOgl {
+    width: 330px;
+    height: 50px;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signIn {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.SignUp {
+    width: 260px;
+    height: 40px;
+    font-size: 20px;
+    color: #4886D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px #4886D9 solid;
+    border-radius: 30px;
+}
+
+.signIn:hover {
+    background-color: #FFFFFF;
+    color: #4886D9;
+    border: 2px solid #4886D9;
+}
+
+.SignUp:hover {
+    background-color: #4886D9;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+.addOgl:hover {
+    background-color: #FFFFFF;
+    color: #4886D9;
+    border: 2px solid #4886D9;
+}
+
+
+/*Main logo style  */
+.MaiWwrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15%;
+    align-items: center;
+}
+
+.logo img {
+    width: 350px;
+    height: 350px;
+    margin-right: 100px;
+}
+
+.Text {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+    .Text h1 {
+        font-size: 3rem;
+    }
+
+    .Text p {
+        font-size: 1.5rem;
+    }
+
+
+.MainAddOgl {
+    width: 330px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #4886D9;
+    border: none;
+    border-radius: 30px;
+    color: #FFFFFF;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+    .MainAddOgl:hover {
+        background-color: #FFFFFF;
+        color: #4886D9;
+        border: 2px solid #4886D9;
+    }
+
+/*Announcement in main*/
+.announcement .title h3,
+.announcement .text p,
+.announcement .phone p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 200px;
+}
+
+.FullAnnouncementWrapper {
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.announcementWrapper {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 80px;
+    row-gap: 50px;
+}
+
+.announcement {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    border: 3px solid #4886D9;
+}
+
+.announcementImg {
+    width: 240px;
+    height: 40%;
+}
+
+    .announcementImg img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        object-fit: contain;
+       
+    }
+
+.announcementText {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    width: 70%;
+    height: 40%;
+    border-radius: 20px;
+    background-color: #C9DCF4;
+}
+
+.title h3 {
+    font-size: 1.25rem;
+}
+
+.text p {
+    font-size: 0.9rem;
+}
+
+.phone p {
+    font-size: 1.25rem;
+    color: #4886D9;
+}
+
+
+/*pop up deteil*/
+.details-button {
+    width:100px;
+    height:40px;
+    background-color: #4886D9;
+    border: none;
+    border-radius: 30px;
+    color: #FFFFFF;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:500;
+}
+
+    .details-button:hover {
+        background-color: #FFFFFF;
+        color: #4886D9;
+        border: 2px solid #4886D9;
+        
+    }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    height: 600px; 
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    border: 3px solid #4886D9;
+}
+
+.modal-body {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.modal-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+    .modal-image img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 15px;
+    }
+
+.modal-info {
+    flex: 1;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+    .modal-info span {
+       color: #4886D9;
+       font-weight:500;
+
+    }
+.modal-category,
+.modal-title h3,
+.modal-phone {
+    margin-bottom: 10px;
+}
+
+.modal-description {
+    padding-right: 15px;
+    max-height: 200px; /* задайте максимальну висоту блоку опису */
+    overflow-y: auto; /* включаЇмо вертикальну прокрутку, €кщо текст перевищуЇ встановлену висоту */
+}
+
+
+    
+.close {
+    color: #aaa;
+    align-self: flex-end;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+/*footer*/
+.FooterWrapper {
+    margin-top: 5%;
+    padding: 3%;
+    display: flex;
+    background-color: #C9DCF4;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.AboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    width: 400px;
+}
+
+    .AboutUs h2 {
+        color: #5288F2;
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+
+.Contacts {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-self: center;
+    width: 430px;
+    height: 220px;
+    background-color: #fff;
+    border-radius: 35px;
+    padding: 15px;
+}
+
+.ContactsText p {
+    color: #4886D9;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.phone, .email {
+    display: flex;
+    justify-content: space-between;
+}
+/* Login style */
+
+.FullLoginWrappe {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#fff,#c9dbff);
+}
+
+.LoginWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+    height: 620px;
+    border-radius: 35px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.OferSignUp {
+    padding: 145px 0 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+    background-color: #5288F2;
+    border-radius: 30% 35px 35px 30%;
+}
+
+.SignIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+    .SignIn form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 200px;
+    }
+
+    .SignIn input {
+        border-radius: 10px;
+        width: 320px;
+        height: 40px;
+        border: none;
+        background-color: #EEEEEE;
+    }
+
+    .SignIn button {
+        width: 160px;
+        height: 40px;
+        background-color: #5288F2;
+        font-weight: 600;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px
+    }
+
+        .SignIn button:hover {
+            background-color: #fff;
+            color: #5288F2;
+            border: 1px solid #5288F2;
+        }
+
+    
+
+        
+    .SignIn p {
+        color: #5288F2;
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+
+
+.OferSignUp h2 {
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.OferSignUp p {
+    width: 350px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.OferSignUp a {
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    color: #5288F2;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+    .OferSignUp a:hover {
+        background-color: #5288F2;
+        color: white;
+        border: 1px solid white;
+    }
+
+/* user create form*/
+
+.FullSignUpWrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#c9dbff,white);
+}
+
+.regWrapper {
+    display: flex;
+    width: 920px;
+    height: 620px;
+    border-radius: 35px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.signUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    width: 500px;
+    background-color: #5288F2;
+    border-radius: 35px 30% 30% 35px;
+}
+
+    .signUp form {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .signUp input {
+        margin-bottom: 25px;
+        border-radius: 10px;
+        width: 320px;
+        height: 40px;
+        border: none;
+    }
+
+    .signUp button {
+        width: 160px;
+        height: 40px;
+        background-color: white;
+        color: #5288F2;
+        font-weight: 600;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+        .signUp button:hover {
+            background-color: #5288F2;
+            color: white;
+            border: 1px solid white;
+        }
+
+    .signUp p {
+        color: #FFF;
+        font-size: 2.25rem;
+        font-weight: 500;
+    }
+
+
+.offerSignIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+    .offerSignIn h2 {
+        color: #5288F2;
+        font-size: 2.2rem;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    .offerSignIn p {
+        width: 300px;
+        color: #737373;
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .offerSignIn a {
+        width: 160px;
+        height: 40px;
+        background-color: #5288F2;
+        font-weight: 600;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+
+    }
+
+        .offerSignIn a:hover {
+            background-color: #fff;
+            color: #5288F2;
+            border: 1px solid #5288F2;
+        }
+
+/* dashbord*/
+.userName{
+    display:flex;
+    width:300px;
+    align-items:center;
+    justify-content:space-around;
+}
+.configuration {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height:150px;
+}
+    .configuration a {
+        background: #5288F2;
+        color: white;
+        border-radius: 30px;
+        width: 150px;
+        text-align: center;
+        display: flex;
+        height: 20px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+        .configuration a:hover {
+            color: #5288F2;
+            background: white;
+            border: 1px solid #5288F2;
+        }
+
+/* add Advertiements*/
+.FormWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* додача оголошенн€ */
+.TextAdd {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    padding: 20px;
+    border-bottom: 3px solid #C9DCF4;
+}
+
+    .TextAdd h2 {
+        font-weight: 500;
+    }
+/* форма */
+.FormWrapper form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    width: 1050px;
+}
+
+    .FormWrapper form > label {
+        margin-bottom: 30px;
+    }
+    /* buuton */
+    .FormWrapper form > button {
+        display: block;
+        margin: 0 auto;
+        width: 30%;
+        height: 50px;
+        border-radius: 30px;
+        background-color: #4886D9;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 500;
+        border: none;
+    }
+
+        .FormWrapper form > button:hover {
+            background-color: #fff;
+            color: #4886D9;
+            border: 1px solid #4886D9;
+        }
+
+.formAbout {
+    height: 150px;
+}
+
+.formOtherInput {
+    height: 50px;
+}
+
+.FormWrapper form > input {
+    width: 100%;
+    margin-bottom: 70px;
+    border-radius: 30px;
+    border: 1px solid #C9DCF4;
+    background: #F8FBFF;
+    overflow-wrap: break-word;
+    text-align: left;
+    overflow-wrap: break-word;
+}
+
+.inputFile {
+    display: none;
+}
+
+/* стил≥ дл€ загрузки фото */
+.customFileUpload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1050px;
+    height: 250px;
+    border-radius: 30px;
+    border: 1px solid #C9DCF4;
+    background: #F8FBFF;
+    color: #4886D9;
+    font-size: 20px;
+}
+.category-label {
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.category-б≥жутер≥€ {
+    background-color: #1e90ff; /* син≥й */
+}
+
+.category-од€г {
+    background-color: #32cd32; /* зелений */
+}
+
+.category-електрон≥ка {
+    background-color: #ffd700; /* жовтий */
+    color: black; /* дл€ кращого контрасту */
+}
+
+.category-документи {
+    background-color: #ff6347; /* червоний */
+}
+
+.filter{
+    width:85%;
+}
+
+    .filter select {
+        width: 160px;
+        height: 40px;
+        background-color: white;
+        color: #5288F2;
+        font-weight: 600;
+        border: none;
+        border-radius: 10px;
+        border: 2px solid #5288F2;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+        .filter select option{
+        background-color: white;
+        color: #5288F2;
+        font-weight: 600;
+        padding: 10px;
+
+        }
+
+        

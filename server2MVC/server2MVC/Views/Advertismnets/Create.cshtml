@@ -1,0 +1,93 @@
+﻿@model server2MVC.Models.Advertismnet  
+
+@{
+    ViewData["Title"] = "Розмістити оголошення";
+}
+
+<div class="header">
+    <div class="headerWrapper">
+        <div class="headerLogo">
+            <a asp-controller="Home" asp-action="Index"><img src="/Image/logo.svg" alt="logo" /></a>
+            <p>Подача оголошень</p>
+        </div>
+        <div class="registrBtn">
+            <div style='display:flex'>
+                    <div class="userName">
+                        <img src="/Image/user-icon.svg" alt="user-icon" />
+                    <div class="popup" style="left:1125px">
+
+                        <a asp-controller="Users" asp-action="DashBoard">Особистий кабінет</a>
+                        <a asp-controller="Users" asp-action="Logout">Вихід</a>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div classe="CreateWrapper">
+    <div class="FormWrapper">
+        <div class="TextAdd">
+            <h2>Подача Оголошення</h2>
+
+        </div>
+            <form asp-action="Create" method="post" enctype="multipart/form-data">
+                <label htmlFor="">Додати фотографії</label>
+            <label  htmlFor="ImageFile" class="customFileUpload">
+                <p id="addPhoto">Додати</p>
+                <input type="file" name="ImageFile" id="ImageFile" onchange="checkIfPhotoAdded(this)" class="inputFile" />
+                 </label>
+                 
+                <label htmlFor='name'>Назва та опис</label>
+            <input asp-for="Title" type="text" name="Title" placeholder='Назва' class="formOtherInput" required />
+            <input asp-for="Description" type="text" name="Description"  placeholder='Опис' class="formAbout" required />
+                <label htmlFor="phone">Телефон</label>
+            <input type="tel" name="phoneNum"  placeholder='+380()___-__-__' class="formOtherInput" required />
+                <button type="submit">Розмістити оголошення</button>
+             </form>
+        
+    </div>
+    <Footer />
+</div>
+<div class="FooterWrapper">
+    <div class="imgContainer">
+        <img src="/Image/light_logo.svg" alt="logo" />
+    </div>
+    <div class="AboutUs">
+        <h2>Ternopil lost&found</h2>
+        <p>Про нас</p>
+        <p>Політика конфіденційності</p>
+    </div>
+    <div class="Contacts">
+        <div class="ContactsText"><p>Наші контакти</p></div>
+        <div class="phone">
+            <p>Телефон</p>
+            <p>+380975461223</p>
+        </div>
+        <hr />
+        <div class="email">
+            <p>Пошта</p>
+            <p>ternopilLostFound@gmail.com</p>
+        </div>
+        <hr />
+    </div>
+
+</div>
+
+<script>
+    var label = document.getElementById("addPhoto");
+   
+    
+    function checkIfPhotoAdded(input) {
+        
+        if (input.files && input.files[0]) {
+            label.textContent= "Фото додано";
+        }
+
+    }</script>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

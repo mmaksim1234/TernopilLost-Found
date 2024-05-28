@@ -1,0 +1,41 @@
+﻿@model server2MVC.Models.User
+
+<head>
+    <meta charset="UTF-8">
+    <title>LoginForm</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="FullSignUpWrapper">
+        <div class="regWrapper">
+            <div class="signUp">
+                <p>Реєстрація</p>
+                <form asp-action="Create" method="post">
+                    <input asp-for="FirstName" class="form-control" placeholder="Введіть ім`я"/>
+                    <input asp-for="LastName" class="form-control" placeholder="Введіть прізвище" />
+                    <input asp-for="Email" class="form-control" placeholder="Введіть email" />
+                    <input asp-for="Password" class="form-control" type="password" placeholder="Введіть пароль" />
+                    <input asp-for="repeatPassword" class="form-control" placeholder="Повторіть пароль" />
+                    <button type="submit" >Реєстрація</button>
+                </form>
+            </div>
+            <div class="offerSignIn">
+                <h2>Ternopil lost&found</h2>
+                <p>Якщо у вас вже є заєстрований обліковий запис, то виконайте вхід.</p>
+                <a asp-action="Login">Вхід</a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+        
+@*
+<div>
+    <a asp-action="Login">logint</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}*@

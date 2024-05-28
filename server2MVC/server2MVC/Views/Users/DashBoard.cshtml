@@ -1,0 +1,62 @@
+﻿@model server2MVC.Models.UserDashboardViewModel
+
+
+<div class="header">
+    <div class="headerWrapper">
+        <div class="headerLogo" >
+            <a asp-controller="Home" asp-action="Index"><img src="/Image/logo.svg" alt="logo" /></a>
+            <p>Особистий кабінет</p>
+        </div>
+        <div class="registrBtn">
+            <a asp-controller="Advertismnets" asp-action="Create"> <button class="addOgl">Додати оголошення</button></a>
+            <div style='display:flex'>
+            <div class="userName"> 
+                <img src="/Image/user-icon.svg" alt="user-icon" />
+                    <p>Ласкаво просимо, @Model.User.FirstName</p>
+                    
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+    @if (Model.Advertisements.Any())
+    {
+        <div class="announcementWrapper">
+                @foreach (var advertisement in Model.Advertisements)
+                {
+               
+                    
+                            <div class="announcement">
+                                <div class="announcementImg">
+                                     <img src="@Url.Content(advertisement.ImagePath)" alt="foto" />
+                                </div>
+                                <div class="announcementText">
+                                        <div class="title"><h3>@advertisement.Title</h3></div>
+                                        <div class="text">
+                                            <p>@advertisement.Description</p>
+                                            <p>Активна:@advertisement.isActive</p>
+                                        </div>
+                                        <div class="phone"><p>+38090946537</p></div>
+                                        <div class="configuration">
+                                            <a asp-controller="Advertismnets" asp-action="Edit" asp-route-id="@advertisement.ID">Редагувати</a> 
+                                            <a asp-controller="Advertismnets" asp-action="Details" asp-route-id="@advertisement.ID">Деталі</a> 
+                                            <a asp-controller="Advertismnets" asp-action="Delete" asp-route-id="@advertisement.ID">Видалити</a>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                
+                }
+        </div>
+        }
+   
+    else
+    {
+        <p>У вас немає оголошень.</p>
+    }
+
+
